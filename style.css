@@ -6,9 +6,10 @@
 
 .header{
   background:aquamarine;
-  margin-left:100px;
-  margin-top:20px;
-  margin-right:100px;
+  margin-left:150px;
+  margin-top:25px;
+  margin-right:150px;
+  height:50vh;
 }
 
 .navigation{
@@ -21,6 +22,7 @@
   border:3px solid #111;
   border-radius: 8px;
   padding:5px;
+  margin:10px;
 }
 
 .navigation .logo:hover{
@@ -43,4 +45,11 @@
 .nav ul li a{
   text-decoration:none;
   color:#111;
+}
+
+.banner,.socials{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-top:70px;
 }
